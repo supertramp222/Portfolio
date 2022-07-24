@@ -13,7 +13,7 @@ body {
 }
 
 h1 {
-  font-size: 11em;
+  font-size: 9.2vw;
   font-family: var(--display-font-family);
   font-weight: normal;
   text-transform: uppercase;
@@ -45,18 +45,55 @@ p {
   color: #000;
 }
 
+.primary_button:hover {
+  /*color: #fff;
+  background-color: #000;*/
+  color: var(--primary-color);
+  border: solid 1px var(--primary-color);
+}
+
 .align-right {
   text-align: right;
 }
 
-.costum-container {
-  max-width: 1920px;
-  margin-right: 100px;
-  margin-left: 100px;
-}
-
-@media (min-width: 1400px) {
+@media (min-width: 587px) {
   .container {
-    max-width: 1728px;
+    max-width: 1063px;
+    padding: 0 50px;
+  }
+
+  h1 {
+    font-size: 8.9vw;
   }
 }
+
+@media (min-width: 1063px) {
+  .container {
+    max-width: 1400px;
+    padding: 0 100px;
+  }
+
+  h1 {
+    font-size: 8.4vw;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1698px;
+    padding: 0 100px;
+  }
+
+  h1 {
+    font-size: 8.8vw;
+  }
+}
+
+@media (min-width: 1698px) {
+  .container {
+    max-width: 1920px;
+    padding: 0 100px;
+  }
+}
+
+/*Common breakpoints are 320px — 480px for mobile devices, 481px — 768px for iPads & tablets, 769px — 1024px for small screens like laptop, 1025px — 1200px*/
