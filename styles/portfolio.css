@@ -67,6 +67,12 @@ p {
   border: solid 1px var(--primary-color);
 }
 
+.secondary-btn {
+  font-size: 18px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
 .align-right {
   text-align: right;
 }
@@ -88,6 +94,28 @@ p {
 .project-item-1,
 .project-item-3 {
   margin-top: 100px;
+}
+
+.about-section {
+  margin-top: 230px;
+}
+
+.about-section h1 {
+  font-size: calc(28px + (48 - 28) * ((100vw - 300px) / (1850 - 300)));
+  text-transform: none;
+  line-height: 1;
+}
+
+.title-wrapper {
+  max-width: 64%;
+}
+
+.about-me-details {
+  margin-top: 80px;
+}
+
+.profile-img {
+  margin-top: 80px;
 }
 
 @media (min-width: 300px) and (max-width: 1020px) {
@@ -120,7 +148,8 @@ p {
 
   .project-item {
     flex-direction: row;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
     min-width: 100%;
     margin: 30px 0;
   }
@@ -133,6 +162,9 @@ p {
 @media (max-width: 600px) {
   .project-img {
     display: none;
+  }
+  .title-wrapper {
+    max-width: 100%;
   }
 }
 
