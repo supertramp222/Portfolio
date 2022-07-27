@@ -118,6 +118,14 @@ p {
   margin-top: 80px;
 }
 
+.work-overview {
+  margin-top: 170px;
+}
+
+.second-work-column {
+  margin-top: 165px;
+}
+
 @media (min-width: 300px) and (max-width: 1020px) {
   h1 {
     font-size: calc(35px + (174 - 35) * ((100vw - 300px) / (1600 - 300)));
