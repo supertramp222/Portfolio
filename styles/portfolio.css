@@ -19,7 +19,7 @@ h1 {
   text-transform: uppercase;
   letter-spacing: -0.3px;
   line-height: 1.5;
-  margin: 50px 0;
+  margin: 100px 0;
 }
 
 h2 {
@@ -38,6 +38,12 @@ p {
   font-size: 24px;
   line-height: 35px;
   color: #000;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 88.5%;
 }
 
 nav ul {
@@ -60,9 +66,13 @@ nav a {
 }
 
 nav a:hover,
-nav a:active {
+nav li.active a {
   color: #000;
   text-decoration: underline;
+}
+
+.container {
+  max-width: 88.5%;
 }
 
 .row-hero p {
@@ -166,13 +176,11 @@ nav a:active {
     font-size: 18px;
     line-height: 1.5;
   }
+  .row-hero {
+    padding: 60px 0 0 0;
+  }
   .primary_button {
     font-size: 14px;
-  }
-  .container {
-    padding: 0 30px;
-    max-width: 1850px;
-    margin: 0 auto;
   }
 
   .project-container {
@@ -209,11 +217,6 @@ nav a:active {
   h1 {
     font-size: calc(35px + (140 - 35) * ((100vw - 300px) / (1600 - 300)));
   }
-  .container {
-    padding: 0 30px;
-    max-width: 1850px;
-    margin: 0 auto;
-  }
 }
 
 @media (min-width: 800px) and (max-width: 1440px) {
@@ -225,10 +228,5 @@ nav a:active {
 @media (min-width: 1440px) {
   h1 {
     font-size: calc(35px + (144 - 35) * ((100vw - 300px) / (1600 - 300)));
-  }
-  .container {
-    padding: 0 80px;
-    max-width: 1850px;
-    margin: 0 auto;
   }
 }
