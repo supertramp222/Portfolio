@@ -40,6 +40,31 @@ p {
   color: #000;
 }
 
+nav ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  display: inline;
+  text-decoration: none;
+  line-height: 70px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+nav a:hover,
+nav a:active {
+  color: #000;
+  text-decoration: underline;
+}
+
 .row-hero p {
   line-height: 120%;
 }
