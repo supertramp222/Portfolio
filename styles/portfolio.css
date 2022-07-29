@@ -161,6 +161,10 @@ nav li.active a {
   margin-top: 165px;
 }
 
+footer {
+  margin-bottom: 70px;
+}
+
 footer .contact-box {
   background-color: var(--primary-color);
   padding: 50px;
@@ -235,6 +239,28 @@ footer .email-link a:active {
 
   .second-work-column {
     margin-top: 20px;
+  }
+
+  footer .contact-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 50px auto 70px;
+  }
+
+  footer .footer-links-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+  }
+
+  footer {
+    margin-bottom: 40px;
+  }
+  footer .footer-links a {
+    margin: 15px;
   }
 }
 
