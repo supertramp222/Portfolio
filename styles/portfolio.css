@@ -165,6 +165,12 @@ footer {
   margin-bottom: 70px;
 }
 
+footer p {
+  font-size: 12px;
+  color: rgb(66, 66, 66);
+  margin-top: 35px;
+}
+
 footer .contact-box {
   background-color: var(--primary-color);
   padding: 50px;
